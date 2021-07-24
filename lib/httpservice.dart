@@ -7,7 +7,7 @@ class HttpService {
     final response = await http
         .get(Uri.https('api.openweathermap.org', '/data/2.5/weather', {
       'q': city,
-      'appid': 'e9cd62dfd8f2065e3e59cfaf7c8bc1ac',
+      'appid': '',
       'units': 'metric',
     }));
 
